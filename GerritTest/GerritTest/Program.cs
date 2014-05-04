@@ -6,6 +6,8 @@
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("This will go to Gerrit. Hopefully.");
+
             // TODO: Implement sanity checks
             var a = int.Parse(Console.ReadLine());
             var b = int.Parse(Console.ReadLine());
