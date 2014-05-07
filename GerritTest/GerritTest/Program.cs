@@ -6,8 +6,6 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is crap.");
-
             // TODO: Implement sanity checks
             var a = int.Parse(Console.ReadLine());
             var b = int.Parse(Console.ReadLine());
