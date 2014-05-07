@@ -14,6 +14,10 @@
             // this right here is obviously a very complicated calculation
             // better make someone else verify correctness
             // TODO: Implement discriminant
+
+            var discriminant = (b * b) - (4 * a * c);
+            Console.WriteLine("Discriminant is: " + discriminant);
+            Console.ReadLine();
         }
     }
 }
